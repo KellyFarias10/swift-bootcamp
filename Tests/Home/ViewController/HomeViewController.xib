@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Tests" customModuleProvider="target">
+            <connections>
+                <outlet property="tableSteps" destination="HjN-Pd-dxZ" id="hw8-0f-hMk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GkZ-iO-b1v" customClass="DashedLineView" customModule="Tests" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="HjN-Pd-dxZ">
+                    <rect key="frame" x="0.0" y="69" width="383" height="739"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="HjN-Pd-dxZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="7CO-sF-Gg0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GkZ-iO-b1v" secondAttribute="trailing" id="Ppk-6A-S6V"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="HjN-Pd-dxZ" secondAttribute="bottom" constant="10" id="ROP-cF-RAD"/>
+                <constraint firstItem="GkZ-iO-b1v" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Wto-7n-xJ6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HjN-Pd-dxZ" secondAttribute="trailing" constant="10" id="aSQ-Iv-vPd"/>
+                <constraint firstItem="HjN-Pd-dxZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="lvF-nE-atb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="GkZ-iO-b1v" secondAttribute="bottom" id="mvd-eh-lSt"/>
+                <constraint firstItem="GkZ-iO-b1v" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="wSp-H1-llz"/>
+            </constraints>
+            <point key="canvasLocation" x="-42" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

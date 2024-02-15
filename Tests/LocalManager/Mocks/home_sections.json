@@ -1,0 +1,76 @@
+{
+    "success":true,
+    "message":"Datos obtenidos",
+    "data":[
+        {
+            "name":"Captación",
+            "status_id":3,
+            "options":[
+                {
+                    "id":1,
+                    "name":"Detalles de Captacion"
+                },
+                {
+                    "id":2,
+                    "name":"Detalles de Citas"
+                }
+            ]
+        },
+        {
+            "name":"Seguimiento",
+            "status_id":2,
+            "options":[
+                {
+                    "id":1,
+                    "name":"Detalles de Captacion"
+                },
+                {
+                    "id":2,
+                    "name":"Detalles de Citas"
+                }
+            ]
+        },
+        {
+            "name":"Compra",
+            "status_id":1,
+            "options":[
+                {
+                    "id":1,
+                    "name":"Detalles de Captacion"
+                },
+                {
+                    "id":2,
+                    "name":"Detalles de Citas"
+                }
+            ]
+        },
+        {
+            "name":"Compra 2",
+            "status_id":1,
+            "options":[
+                {
+                    "id":1,
+                    "name":"Detalles de Captacion"
+                },
+                {
+                    "id":2,
+                    "name":"Detalles de Citas"
+                }
+            ]
+        },
+        {
+            "name":"Ventas",
+            "status_id":1,
+            "options":[
+                {
+                    "id":1,
+                    "name":"Detalles de Captacion"
+                },
+                {
+                    "id":2,
+                    "name":"Detalles de Citas"
+                }
+            ]
+        }
+    ]
+}
